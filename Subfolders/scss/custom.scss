@@ -25,7 +25,7 @@ sans-serif;
 //  background-repeat: no-repeat;
 // }
 
-img {
+.site-img {
  max-height: 60vh;
  width: 100%;
  object-fit: cover;
@@ -37,7 +37,7 @@ a {
 }
 
 @media(min-width:1030px) {
- img {
+ .site-img {
   object-position: center 30%;
   ;
  }

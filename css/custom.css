@@ -13,7 +13,7 @@ body {
   list-style: none;
 }
 
-img {
+.site-img {
   max-height: 60vh;
   width: 100%;
   -o-object-fit: cover;
@@ -27,7 +27,7 @@ a {
 }
 
 @media (min-width: 1030px) {
-  img {
+  .site-img {
     -o-object-position: center 30%;
        object-position: center 30%;
   }
