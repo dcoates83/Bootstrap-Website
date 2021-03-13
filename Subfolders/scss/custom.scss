@@ -1,0 +1,36 @@
+body {
+ color: #333;
+ font-size: 13px;
+ line-height: 18px;
+ font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+
+$primary-font: "Roboto Condensed",
+sans-serif;
+
+.site-img {
+ // min-height: 300px;
+ min-height: 60vh;
+ width: 100%;
+ background-image: url(/Subfolders/img/pexels-henley-design-studio-1334763.jpg);
+ background-size: cover;
+ background-position: center 50%;
+}
+
+img {
+ width: 100%;
+}
+
+a {
+ text-decoration: none;
+}
+
+@import "header";
+@import "footer";
