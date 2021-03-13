@@ -15,14 +15,16 @@ body {
 $primary-font: "Roboto Condensed",
 sans-serif;
 
+
+
 .site-img {
 
  min-height: 60vh;
- width: 100%;
- background-image: url(img/pexels-henley-design-studio-1334763.jpg);
+
+ background-image: url(/img/pexels-henley-design-studio-1334763.jpg);
  background-size: cover;
  background-position: center 50%;
-
+ background-repeat: no-repeat;
 }
 
 img {
@@ -31,6 +33,13 @@ img {
 
 a {
  text-decoration: none;
+}
+
+@media(min-width:1030px) {
+ .site-img {
+  background-position: center 30%;
+  ;
+ }
 }
 
 @import "header";
