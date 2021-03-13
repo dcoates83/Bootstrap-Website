@@ -7,7 +7,7 @@ body {
 
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -15,7 +15,7 @@ body {
 
 .site-img {
   min-height: 60vh;
-  background-image: url(../img/pexels-henley-design-studio-1334763.jpg);
+  background-image: url(https://dcoates83.github.io/Bootstrap-Website/img/pexels-henley-design-studio-1334763.jpg);
   background-size: cover;
   background-position: center 50%;
   background-repeat: no-repeat;
@@ -117,7 +117,7 @@ ul.social-network li {
 nav {
   border-bottom: 1px solid #eee;
   -webkit-box-shadow: 0 2px 10px #c0bfbf;
-  box-shadow: 0 2px 10px #c0bfbf;
+          box-shadow: 0 2px 10px #c0bfbf;
 }
 
 @media (max-width: 1119px) {
